@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgba(76, 100, 119, 0.916);
+    color: #00ff48;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1{
+    color: rgb(22, 7, 64);
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    color: #3b0727;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}

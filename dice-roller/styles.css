@@ -1,0 +1,71 @@
+a {
+    display: block;
+    color: #3b0727;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgba(76, 100, 119, 0.916);
+    color:rgb(27, 28, 28);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: hsla(203, 49%, 66%, 0.468); 
+    max-width: 75%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.484);
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: transparent;
+    background-image: url("btn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    color: hsl(303, 65%, 65%);
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.1s ease-in-out;
+}
+button:hover{
+    transform: scale(1.05);
+}
+button:active{
+    transform: scale(0.95);   
+}
+.button-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}

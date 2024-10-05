@@ -1,0 +1,70 @@
+a {
+    display: block;
+    color: #3b0727;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+a:hover {
+    text-decoration: underline;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(207, 22%, 38%, 0.916);
+}
+#myH1{
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    color: rgb(75, 60, 90);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: hsla(203, 49%, 66%, 0.468);
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.484);
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(75, 60, 90);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    transition: background-color 0.5s easy;
+}
+#startBtn{
+    background-color: hsl(120, 100%, 35%);
+}
+#startBtn:hover{
+    background-color: hsl(120, 100%, 25%);
+}
+#stopBtn{
+    background-color: hsl(10, 90%, 45%);
+}
+#stopBtn:hover{
+    background-color: hsl(10, 90%, 35%);
+}
+#resetBtn{
+    background-color: hsl(214, 89%, 47%);
+}
+#resetBtn:hover{
+    background-color: hsl(214, 89%, 37%);
+}

@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(hello.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a {
+    display: block;
+    color: hsla(289, 74%, 19%, 0.804);
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 20px 0; 
+}
+a:hover {
+    text-decoration: underline;
+    color: hsl(289, 73%, 19%);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calculator{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(image.png);
+    background-color: hsl(318, 59%, 76%);
+    border-radius: 15px;
+    max-width: 400px;
+    overflow: hidden;
+    box-shadow: 10px 10px 25px hsla(0, 0%, 0%, 0.584);
+}
+#display{
+    margin: 20px;
+    width: 80%;
+    padding: 15px;
+    font-size: 3.4rem;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: clip; 
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(117, 13%, 74%);
+    color: hsl(300, 48%, 26%);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border:none;
+    background-image: none;
+    background-color: hsla(307, 31%, 70%, 0.433);
+    color:rgb(68, 62, 62);
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-image: none;
+    background-color: hsla(307, 31%, 85%, 0.5);
+}
+button:active{
+    background-color: hsla(308, 31%, 95%, 0.577);
+}
+.operator-btn{
+    color: hsl(300, 48%, 26%);
+}
+
+#emptyBtn{
+    background-image: url(image.png);
+    cursor: auto;
+}
+#equal-btn{
+    background-color: hsl(300, 48%, 26%);
+    color: hsl(330, 71%, 50%);
+    transition: transform 0.2s ease-in-out;
+}
+#equal-btn:hover{
+    transform: scale(1.04);
+}
+#equal-btn:active{
+    transform: scale(0.95);
+}

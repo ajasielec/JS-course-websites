@@ -7,7 +7,7 @@
 body{
     font-family: Arial, sans-serif;
     background-color: rgba(76, 100, 119, 0.916);
-    color: #00ff48;
+    color: #3d0e3e;
     line-height: 1.6;
     padding: 20px;
 }
@@ -34,4 +34,5 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #1e0e6d;
 }
